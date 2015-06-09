@@ -1,0 +1,1 @@
+cmd_/home/intel/prgs/ker_modules/ioctlex/query_ioctl.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.11.0-26-generic/scripts/module-common.lds --build-id  -o /home/intel/prgs/ker_modules/ioctlex/query_ioctl.ko /home/intel/prgs/ker_modules/ioctlex/query_ioctl.o /home/intel/prgs/ker_modules/ioctlex/query_ioctl.mod.o

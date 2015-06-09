@@ -1,0 +1,42 @@
+Module                  Size  Used by
+ker1                   12496  0 
+snd_hda_codec_realtek    62235  1 
+snd_hda_intel          57222  3 
+bnep                   19884  2 
+snd_hda_codec         199156  2 snd_hda_codec_realtek,snd_hda_intel
+rfcomm                 74748  0 
+snd_hwdep              13613  1 snd_hda_codec
+snd_pcm               107140  2 snd_hda_intel,snd_hda_codec
+i915                  821500  3 
+bluetooth             411140  10 bnep,rfcomm
+snd_seq_midi           13324  0 
+snd_rawmidi            30465  1 snd_seq_midi
+snd_seq_midi_event     14899  1 snd_seq_midi
+snd_seq                66061  2 snd_seq_midi,snd_seq_midi_event
+snd_timer              30038  2 snd_pcm,snd_seq
+snd_seq_device         14497  3 snd_seq_midi,snd_rawmidi,snd_seq
+drm_kms_helper         53540  1 i915
+drm                   308868  4 i915,drm_kms_helper
+snd                    69754  16 snd_hda_codec_realtek,snd_hda_intel,snd_hda_codec,snd_hwdep,snd_pcm,snd_seq_midi,snd_rawmidi,snd_seq,snd_timer,snd_seq_device
+soundcore              12680  1 snd
+gpio_ich               13526  0 
+mei_me                 18674  0 
+snd_page_alloc         18798  2 snd_hda_intel,snd_pcm
+i2c_algo_bit           13564  1 i915
+mei                    87127  1 mei_me
+psmouse               113295  0 
+video                  19914  1 i915
+serio_raw              13462  0 
+lpc_ich                21163  0 
+mac_hid                13253  0 
+shpchp                 37201  0 
+ppdev                  17711  0 
+parport_pc             32866  1 
+lp                     17799  0 
+parport                42481  3 ppdev,parport_pc,lp
+hid_generic            12548  0 
+e1000e                257783  0 
+usbhid                 53021  0 
+hid                   106605  2 hid_generic,usbhid
+ptp                    18980  1 e1000e
+pps_core               19381  1 ptp

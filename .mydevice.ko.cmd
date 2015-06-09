@@ -1,0 +1,1 @@
+cmd_/home/intel/prgs/ker_modules/mydevice.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.11.0-26-generic/scripts/module-common.lds --build-id  -o /home/intel/prgs/ker_modules/mydevice.ko /home/intel/prgs/ker_modules/mydevice.o /home/intel/prgs/ker_modules/mydevice.mod.o
